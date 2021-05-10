@@ -12,9 +12,9 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI can play music in your group's voice chat
-Maintained by @HEROGAMERS1 ❤
-\nTo add in your group contact us at @LaylaSupport.
+\nSaya Adalah Bot yang akan memainkan Musik Di VCG Group Anda
+Saya di Buat Oleh @@Ramadhaniiiiiii1 ❤
+\nJangan Lupa Follow IG creator saya @ramadh20 😍
 \nHit /help list of available commands.
  </b>""",
       
@@ -34,7 +34,7 @@ Maintained by @HEROGAMERS1 ❤
                         "🔊 Channel", url="https://t.me/candu_musikk"
                     ),
                     InlineKeyboardButton(
-                        "💾 Source code", url="https://t.me/GeezSupportGroup"
+                        "MY ASISTANT", url="https://t.me/ASISTAN_RANDOM"
                     )
                 ],
                 [
