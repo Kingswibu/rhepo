@@ -23,7 +23,7 @@ Maintained by @HEROGAMERS1 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/Ramadhaniiiiiii1",
+                        "OWNER", url="https://t.me/Ramadhaniiiiiii1",
                     )
                 ],
                 [
