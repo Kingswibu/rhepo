@@ -9,11 +9,11 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
+    await message.reply_sticker("CAACAgQAAx0CVij2LgABEzNHYK73j8kBtxw0_SoHsMzUQ5gEu6MAAn4MAAJLae4QXlcTPAtFOZsfBA")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nSaya Adalah Bot yang akan memainkan Musik Di VCG Group Anda
-Saya di Buat Oleh @@Ramadhaniiiiiii1 ❤
+Saya di Buat Oleh [RAMA](https://t.me/maafgausahsokap) ❤
 \nJangan Lupa Follow IG creator saya @ramadh20 😍
 \nHit /help list of available commands.
  </b>""",
@@ -34,7 +34,7 @@ Saya di Buat Oleh @@Ramadhaniiiiiii1 ❤
                         "🔊 Channel", url="https://t.me/candu_musikk"
                     ),
                     InlineKeyboardButton(
-                        "MY ASISTANT", url="https://t.me/ASISTAN_RANDOM"
+                        "MY ASISTANT", url="https://t.me/random_asisstan"
                     )
                 ],
                 [
