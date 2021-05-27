@@ -406,7 +406,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "@VCPlayRobot"
+        user.first_name =  "@random_asisstan"
     usar = user
     wew = usar.id
     try:
@@ -427,7 +427,7 @@ async def play(_, message: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>@asistan_random Telah bergabung ke obrolan</b>",
+                                  "<b>@random_asisstan Telah bergabung ke obrolan</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -436,7 +436,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} tidak bisa bergabung ,Mungkin sudsh melebihin kapasitas."
-                                  "\n\nOr Tambahkan secara manual @asistan_random Dan coba memulai kembali.</b>",
+                                  "\n\nOr Tambahkan secara manual @random_asisstan Dan coba memulai kembali.</b>",
                               )
                               pass
     try:
@@ -444,7 +444,7 @@ async def play(_, message: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> @random_musikkbot Userbot Tidak bisa memulai, Coba admin yang /play Dan Coba menambahkan @asistan_random secara manual</i>"
+            f"<i> @random_musikkbot Userbot Tidak bisa memulai, Coba admin yang /play Dan Coba menambahkan @random_asisstan secara manual</i>"
         )
         return     
     sender_id = message.from_user.id
@@ -592,7 +592,7 @@ async def deezer(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i>Looks like @VCPlayRoBot Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            f"<i>Bot Tidak Bisa menjalan kan, Karna terjadi sesuatu hal, Coba Invite Asisstan secara manual @random_asisstan</i>"
         )
         return                            
     requested_by = message_.from_user.first_name   
