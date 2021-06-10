@@ -23,7 +23,7 @@ Saya di Buat Oleh [RAMA](https://t.me/maafgausahsokap) ❤
             [
                 [
                     InlineKeyboardButton(
-                        "OWNER", url="https://t.me/Ramadhaniiiiiii1",
+                        "OWNER", url="https://t.me/MaafGausahSokap",
                     )
                 ],
                 [
@@ -31,7 +31,7 @@ Saya di Buat Oleh [RAMA](https://t.me/maafgausahsokap) ❤
                         "💬 Group", url="https://t.me/teman_random"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/candu_musikk"
+                        "🔊 Channel", url="https://t.me/ramubotinfo"
                     ),
                     InlineKeyboardButton(
                         "MY ASISTANT", url="https://t.me/random_asisstan"
@@ -58,7 +58,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/candu_musikk"
+                        "🔊 Channel info", url="https://t.me/ramubotinfo"
                     )
                 ],    
                 [    
